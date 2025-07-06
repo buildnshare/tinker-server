@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinker Hub Mailer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2em;
+        }
+
+        label {
+            display: block;
+            margin: 1em 0 0.5em 0;
+        }
+
+        input,
+        select {
+            padding: 0.4em;
+            width: 300px;
+        }
+
+        button {
+            padding: 0.5em 1em;
+            margin-top: 1em;
+        }
+
+        #emailOutput {
+            border: 1px solid #ccc;
+            padding: 1em;
+            margin-top: 2em;
+            background: #f9f9f9;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tinker Hub Mailer</h1>
+    <p>Core application mailing</p>
+    <form id="mailerForm" autocomplete="off">
+        <label>
+            Applicant Name:
+            <input type="text" id="applicantName" required>
+        </label>
+        <label>
+            Applicant Email:
+            <input type="email" id="applicantEmail" required>
+        </label>
+        <label>
+            Application Status:
+            <select id="applicationStatus" required>
+                <option value="accepted">Accepted</option>
+                <option value="rejected">Rejected</option>
+            </select>
+        </label>
+        <label>
+            Role:
+            <input type="role" id="role" required>
+        </label>
+        <button type="submit">Send</button>
+    </form>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
