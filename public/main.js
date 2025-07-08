@@ -121,8 +121,7 @@ document.getElementById('mailerForm').onsubmit = function (event) {
             </p>
             <p class="signature">
                 Best regards,<br />
-                Kevin<br />
-                Tinkerhub SCTCE Campus Lead
+                Tinkerhub SCTCE
             </p>
         </div>
     </div>
@@ -236,8 +235,7 @@ document.getElementById('mailerForm').onsubmit = function (event) {
             </p>
             <p class="signature">
                 Best regards,<br />
-                Kevin <br />
-                Tinkerhub SCTCE Campus Lead
+                Tinkerhub SCTCE
             </p>
         </div>
     </div>
