@@ -10,7 +10,7 @@ document.getElementById('mailerForm').onsubmit = function (event) {
 
   // Build email subject and body
   let subject, body;
-  subject = `TinkerHub Core Team Selection update`;
+  subject = `TinkerHub First Year Coordinator update`;
   if (status === 'accepted') {
     body = `
      <!DOCTYPE html>
@@ -26,7 +26,7 @@ document.getElementById('mailerForm').onsubmit = function (event) {
             background-color: #f7f9fc;
             margin: 0;
             padding: 0;
-            color: #333;
+            color: #000;
         }
 
         .email-container {
@@ -112,7 +112,7 @@ document.getElementById('mailerForm').onsubmit = function (event) {
                 Hope you have read the Tinkerhub wiki.
             </p>
             <p>
-                We are also inviting you to this whatsapp group (Whatsapp group link here). Further details regarding the final round will be shared in this group.
+                We are also inviting you to this whatsapp group <a href='https://chat.whatsapp.com/HydCPkdLHSZGDE6Hx6ixUX?mode=ems_copy_t'>click here</a>. Further details regarding the final round will be shared in this group.
                 
             </p>
             <p>
