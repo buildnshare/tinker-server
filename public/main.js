@@ -247,8 +247,6 @@ document.getElementById('mailerForm').onsubmit = function (event) {
   }
 
   // Send email content and access token to backend
-  const user = JSON.parse(localStorage.getItem('user'));
-  console.log(user, user.email);
   fetch('/send-mail', {
     method: 'POST',
     headers: {
