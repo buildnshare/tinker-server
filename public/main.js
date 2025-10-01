@@ -108,16 +108,15 @@ document.getElementById('mailerForm').onsubmit = function (event) {
         <div class="content">
             <h2>Hello ${name},</h2>
             <p>
-                We are pleased to announce that you are selected as a core team member at Tinkerhub SCTCE.
-                We are glad to onboard you on the core team. Hope you have read the Tinkerhub wiki.
+                We are pleased to announce that you are shortlisted to the next round of First Year Coordinator selection at Tinkerhub SCTCE.
+                Hope you have read the Tinkerhub wiki.
             </p>
             <p>
-                We are also inviting you to the friendly meetup of core team members from different colleges at Tinkerspace. 
-                This is a mandatory event and we will reconsider your selection if you are not able to attend the event.
-                You will take up the responsibility of ${role} from the day that will be mentioned in the core team meeting.
+                We are also inviting you to this whatsapp group (Whatsapp group link here). Further details regarding the final round will be shared in this group.
+                
             </p>
             <p>
-                Looking forward for a wonderful adventure at SCT. Hakuna Matata. Let's start tinkering.
+                Looking forward for a wonderful adventure at SCT. Hakuna Matata.
             </p>
             <p class="signature">
                 Best regards,<br />
@@ -225,7 +224,7 @@ document.getElementById('mailerForm').onsubmit = function (event) {
         <div class="content">
             <h2>Hello ${name},</h2>
             <p>
-                Thank you very much for applying for the Tinkerhub core team at SCTCE. After careful consideration, unfortunately, you have not been selected as a core team member this time.
+                Thank you very much for applying for the First year Coordinator role at TinkerHub SCTCE. After careful consideration, unfortunately, you have not been shortlisted for the next round.
             </p>
             <p>
                 However, we encourage you to stay involved with the community by volunteering, participating in events, and joining discussions. Your enthusiasm and contributions are valuable to us.
