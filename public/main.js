@@ -254,5 +254,9 @@ document.getElementById('mailerForm').onsubmit = function (event) {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ subject, body, email }),
-    }).then((result) => console.log('Mail send result:', result));
+    }).then(async (result) => {
+        const data = await result.json();
+        console.log(data);
+        data.accepted[0] === email ? alert(`Email sent succesfully\nAddress: ${email}\nName: ${name}`) : `Email not sent`;
+    });
 };
