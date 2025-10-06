@@ -25,5 +25,5 @@ app.post('/send-mail', async (req, res) => {
 });
 
 app.listen(port, () =>
-  console.log('server listening on http://localhost:3000')
+  console.log('server running')
 );
